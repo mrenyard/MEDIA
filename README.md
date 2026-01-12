@@ -7,8 +7,8 @@ To use MEDIA simply place the contents of this GitHub repository within a `media
 ```
   |
   +-- public_html       (website root folder)
-  |  |-- index.php      (existing page)?
-  |  +-- head.php       (copied and added head.php file)
+  |  |-- index.html      (static homepage)?
+  |  +-- controller.php  (RAMP controller file)
   |  +-- assets
   |     +-- media        <-- HELLO from MEDIA.
   |     |  +-- img
@@ -18,4 +18,3 @@ To use MEDIA simply place the contents of this GitHub repository within a `media
   |     +-- style
   --- ramp.ini        (local initialization file)
 ```
-
