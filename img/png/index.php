@@ -33,10 +33,10 @@ foreach ($files as $file) {
   if ($file == '.' || $file == '../' || $file == 'low' || $file == 'index.php' || is_dir($file)) { continue; } ?>
     <link rel="preload" as="image" href="low/<?=$file; ?>" fetchpriority="high">
 <?php } ?>
-    <link rel="stylesheet" href="//style.ramp.matt-laptop.lan/import/icons.css.php" crossorigin="anonymous">
-    <link rel="stylesheet" href="//style.ramp.matt-laptop.lan/import/base.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="//style.DOMAIN/import/icons.css.php" crossorigin="anonymous">
+    <link rel="stylesheet" href="//style.DOMAIN/import/base.css" crossorigin="anonymous">
   </head>
-  <body>
+  <body id="SITE_ID">
     <main id="main" style="text-align: center; margin: 0 1rem;">
       <header>
         <!-- <a href="#main" title="Style Guide and CSS Design Patterns of a RAMP Application">#</a> -->
